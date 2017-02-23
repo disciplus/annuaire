@@ -50,11 +50,11 @@
 
 $req = $bdd->prepare('INSERT INTO personnel(nigend, nom, prenom, grade, unite) VALUES(:nigend, :nom, :prenom, :grade, :unite)');
 $req->execute(array(
-    'nigend' => $_POST['nigend'],
-    'nom' => $_POST['nom'],
-    'prenom' => $_POST['prenom'],
-    'grade' => $_POST['grade'],
-    'unite' => $_POST['unite'],
+  'nigend' => $_POST['nigend'],
+  'nom' => $_POST['nom'],
+  'prenom' => $_POST['prenom'],
+  'grade' => $_POST['grade'],
+  'unite' => $_POST['unite'],
 ));
 ?>
 

@@ -10,8 +10,11 @@
     <link rel="stylesheet" type="text/css" href="css/standard.css" />
 </head>
 
-  <body> 
+  <body>
     <h1>Accueil annuaire</h1>
+
+
+
 
   <a href="saisie_annuaire.php">Saisie</a><br />
   <a href="consultation_annuaire.php">Consultation</a>

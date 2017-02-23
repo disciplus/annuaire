@@ -11,15 +11,16 @@
 
 
 
-  <body> 
+
+  <body>
     <h1>Saisie annuaire</h1>
     <form method="post" action="traitement_form_saisie.php">
-      
+
       <!-- formulaire : NIGEND -->
-      <label for="nigend">Nigend</label> : 
+      <label for="nigend">Nigend</label> :
       <input name="nigend" type="text" id="nigend" required autofocus />
       <br><br>
-      
+
       <!-- formulaire : UNITE -->
       <label for="unite">Unité</label> :
       <select name="unite" id="unite" required>
@@ -29,17 +30,17 @@
         <option value="17366">17366 CORG</option>
       </select>
       <br><br>
-      
+
       <!-- formulaire : NOM -->
-      <label for="nom">Nom</label> : 
+      <label for="nom">Nom</label> :
       <input name="nom" type="text" id="nom" required />
       <br><br>
-      
+
       <!-- formulaire : PRENOM -->
       <label for="prenom">Prénom</label> :
       <input name="prenom" type="text" id="prenom" required />
       <br><br>
-      
+
       <!-- formulaire : GRADE -->
       <label for="grade">Grade</label> :
       <select name="grade" id="grade" required>
@@ -64,18 +65,18 @@
           <option value="BRI">BRI</option>
           <option value="GAV">GAV</option>
         </optgroup>
-        
+
        </select>
       <br><br><br><br>
-      
+
       <!-- BOUTONS -->
 
-      
+
       <input type="submit" value="Envoyer" />
-      
+
       <input type="reset" value="Effacer" />
       <br><br>
-      
+
     </form>
   </body>
 </html>
