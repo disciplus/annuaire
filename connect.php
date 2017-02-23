@@ -2,7 +2,7 @@
 
 try
 {
-  $bdd = new PDO('mysql:host=localhost;dbname=annuaire', troll, xxxxxxx);
+  $bdd = new PDO('mysql:host=localhost;dbname=annuaire', xxxx, xxxxxxx);
 }
 catch(Exception $e)
 {
