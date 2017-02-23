@@ -14,12 +14,16 @@
 
   <body>
     <h1>Saisie annuaire</h1>
+    Modif avant commit
+
+
     <form method="post" action="traitement_form_saisie.php">
 
       <!-- formulaire : NIGEND -->
       <label for="nigend">Nigend</label> :
       <input name="nigend" type="text" id="nigend" required autofocus />
       <br><br>
+
 
       <!-- formulaire : UNITE -->
       <label for="unite">Unité</label> :
